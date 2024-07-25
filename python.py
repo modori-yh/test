@@ -1,6 +1,10 @@
-#사용자의 이름을 입력받아서 다음과 같이 출력하라
-#Hello [이름]
+#챌린지2번
 
-name = input("Enter your name: ")
+#사용자의 이름을 입력받은 다음, 사용자의 성을 입력받아서 다음과 같이 출력하라.
+# Hello [이름] [성]
 
-print("Hello", name)
+last_name = input("Enter your name : ")
+
+first_name = input("Enter your firstname : ")
+
+print("Hello", last_name, first_name)
